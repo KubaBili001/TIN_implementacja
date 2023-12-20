@@ -1,0 +1,19 @@
+.background-color{
+    background-color: white;
+}
+
+.box {
+    border-radius: 20px;
+    width: 25%;
+    min-width: 200px;
+    transition: all .5s ease-in-out; 
+}
+
+.box:hover > button {
+    background-color: black;
+    color: white;
+}
+
+.box:hover { 
+    transform: scale(1.05); 
+}
